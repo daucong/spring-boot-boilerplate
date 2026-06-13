@@ -27,8 +27,8 @@ Spins up the following services locally:
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/daucong/anyway.git
-cd anyway
+git clone https://github.com/daucong/spring-boot-boilerplate.git
+cd spring-boot-boilerplate
 ```
 
 **2. Create `.env` file**
