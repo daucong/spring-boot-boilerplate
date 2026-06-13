@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+  <h2 style="color: #2e7d32;">✅ Đặt hàng thành công!</h2>
+  <p>Cảm ơn bạn đã đặt hàng tại Flash Sale Store.</p>
+  <table style="border-collapse: collapse; width: 100%;">
+    <tr style="background: #f5f5f5;">
+      <td style="padding: 10px; border: 1px solid #ddd;"><b>Mã đơn</b></td>
+      <td style="padding: 10px; border: 1px solid #ddd;" th:text="${orderId}"></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><b>Sản phẩm</b></td>
+      <td style="padding: 10px; border: 1px solid #ddd;" th:text="${productName}"></td>
+    </tr>
+    <tr style="background: #f5f5f5;">
+      <td style="padding: 10px; border: 1px solid #ddd;"><b>Số lượng</b></td>
+      <td style="padding: 10px; border: 1px solid #ddd;" th:text="${quantity}"></td>
+    </tr>
+  </table>
+  <p style="color: #888; margin-top: 24px; font-size: 13px;">Flash Sale Store</p>
+</div>
+</body>
+</html>
